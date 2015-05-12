@@ -16,11 +16,11 @@
 %
 'soll man sich geschmeichelt oder beleidigt fühlen, wenn mich ein dummes kleines kind "hacker" nennt?' -- nonchip
 %
-"schreib mich mal auf eBay an"
+"schreib mich mal auf eBay an" -- Kind
 %
-Kind: "Wollt Ihr Architekten werden?"
+Kind 1: "Wollt Ihr Architekten werden?"
 nonchip: "äh, nö, wieso?"
-Kind: "Die machen doch auch was mit Computern…"
+Kind 1: "Die machen doch auch was mit Computern…"
 Kind 2: "hacken undso"
 %
 '"Oops! Du hast das bereits getwittert." nein hab ich nicht, ich bin nur Telekom-Kunde...' -- nonchip
