@@ -7,3 +7,4 @@ git commit -am "[addquote] ${1:=new quote}"
 git push
 strfile quotes.u8
 strfile quotes
+fortune quotes.u8 > README
