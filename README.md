@@ -4,6 +4,7 @@
   * zsh
   * dirname
   * readlink
+  * cut
   * cat
   * find
   * fortune-mod (including `fortune` and `strfile`)
