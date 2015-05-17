@@ -10,6 +10,7 @@
   * fortune-mod (including `fortune` and `strfile`)
   * git
   * sha1sum
+  * date
 
 ## usage
 ### `addquote.zsh ["comment"]`
