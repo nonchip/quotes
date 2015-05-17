@@ -18,3 +18,6 @@ returns a quote (and some output on stderr, just `2>/dev/null` it if unwanted), 
 
 ## forking
 just fork the project and optionally `git rm quotes/*.u8`, if you don't want my quote collection.
+
+## internals
+the quotes are managed as one utf8 text file per quote (`quotes/*.u8`) and autoexported on the fly to an alpabetically sorted `fortune` database using `strfile` by the two scripts.
