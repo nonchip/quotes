@@ -10,3 +10,5 @@ git commit -am "[addquote] ${1:=$fn}"
 git push
 find quotes -name "*.u8" -exec cat {} \; -exec echo "%" \; > quotes.u8
 strfile -io quotes.u8
+echo
+echo "Link: https://github.com/nonchip/quotes/blob/master/$fp"
