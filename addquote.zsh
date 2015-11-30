@@ -1,7 +1,7 @@
 #!/bin/zsh
 cd "$(dirname "$(readlink -f "$0")")"
 
-cat > .quotes.tmp
+nano .quotes.tmp
 fn="$(date +%s)-$(sha1sum .quotes.tmp | cut -d" " -f 1)"
 fp="quotes/${fn}.u8"
 mv .quotes.tmp $fp
